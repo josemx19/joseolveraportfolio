@@ -51,15 +51,15 @@ interface Work {
 
 type DateStr = `${string}-${string}-${string}`
 
-interface Volunteer {
-  organization: string
-  position: string
-  url: string
-  startDate: DateStr
-  endDate: DateStr
-  summary: string
-  highlights: Highlight
-}
+// interface Volunteer {
+//   organization: string
+//   position: string
+//   url: string
+//   startDate: DateStr
+//   endDate: DateStr
+//   summary: string
+//   highlights: Highlight
+// }
 
 interface Skills {
   name: string
@@ -67,27 +67,27 @@ interface Skills {
   keywords: Array<string>
 }
 
-interface Awards {
-  title: string
-  date: string
-  awarder: string
-  summary: string
-}
+// interface Awards {
+//   title: string
+//   date: string
+//   awarder: string
+//   summary: string
+// }
 
-interface Certificates {
-  name: string,
-  date: DateStr,
-  issuer: string,
-  url: string
-}
+// interface Certificates {
+//   name: string,
+//   date: DateStr,
+//   issuer: string,
+//   url: string
+// }
 
-interface Publications {
-  name: string
-  publisher: string
-  releaseDate: DateStr
-  url: string
-  summary: string
-}
+// interface Publications {
+//   name: string
+//   publisher: string
+//   releaseDate: DateStr
+//   url: string
+//   summary: string
+// }
 
 interface Education {
   institution: string
