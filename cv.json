@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jose Olvera",
-    "label": "Desarrollador Jr",
+    "label": "Desarrollador semi-senior",
     "image": "/me_avatar.jpg",
     "email": "olveradev@gmail.com",
     "phone": "+52 983-838-3912",
     "url": "",
-    "summary": "Soy un desarrollador jr con conocimientos en HTML y PHP, haciendo uso del framework Laravel para construir aplicaciones web robustas y dinámicas. En el ámbito móvil, manejo Dart y utilizo el versátil framework Flutter para desarrollar aplicaciones nativas eficientes en iOS y Android.",
+    "summary": "Soy un desarrollador semi-senior con conocimientos en HTML y PHP, Angular, Java Spring, haciendo uso del framework Laravel para construir aplicaciones web robustas y dinámicas. En el ámbito móvil, manejo Dart y utilizo el versátil framework Flutter para desarrollar aplicaciones nativas eficientes en iOS y Android.",
     "location": {
       "address": "",
       "postalCode": "77086",
@@ -59,118 +59,180 @@
       "highlights": [
         "Contribuí al desarrollo y optimización de dos aplicaciones móviles utilizadas durante el proceso electoral."
       ]
+    },
+    {
+      "name": "Alpha Taping & Drywall LTD. – EstadiaProfesional (Remoto)",
+      "position": "Desarrollador Móvil y Web",
+      "startDate": "2025-01-06",
+      "endDate": "2025-04-20",
+      "summary": "Desarrollo de aplicaciones móviles y web para gestión de trabajos de construcción",
+      "highlights": [
+        "Contribuí al desarrollo y optimización de dos aplicaciones móviles utilizadas durante el proceso electoral.",
+        "Desarrollé una aplicación móvil en Flutter para que los empleados puedan cargar facturas y hojas de tiempo de los trabajos realizados en campo. Colaboré en el desarrollo de un sistema web en Laravel junto con un compañero, integrando funcionalidades para el manejo y consulta de datos laborales."
+      ]
     }
   ],
-  "volunteer": [{
-    "organization": "",
-    "position": "",
-    "url": "",
-    "startDate": "",
-    "endDate": "",
-    "summary": "",
-    "highlights": [
-      ""
-    ]
-  }],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
   "education": [
     {
-    "institution": "Universidad Tecnológica de Chetumal",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Tecnologías de la Información - Desarrollo de Software Multiplataforma",
+      "institution": "Universidad Tecnológica de Chetumal",
+      "url": "http://www.utchetumal.edu.mx/index/",
+      "area": "Tecnologías de la Información - Desarrollo de Software Multiplataforma",
       "studyType": "Técnico Superior Universitario",
       "startDate": "2021-09-01",
       "endDate": "2023-07-01",
       "score": "",
       "courses": []
-  }],
-  "awards": [{
-    "title": "",
-    "date": "",
-    "awarder": "",
-    "summary": ""
-  }],
-  "certificates": [{
-    "name": "",
-    "date": "",
-    "issuer": "",
-    "url": ""
-  }],
-  "publications": [{
-    "name": "",
-    "publisher": "",
-    "releaseDate": "",
-    "url": "",
-    "summary": ""
-  }],
+    },
+    {
+      "institution": "Universidad Tecnológica de Chetumal",
+      "url": "http://www.utchetumal.edu.mx/index/",
+      "area": "Ingeniería en desarrollo y gestión de software",
+      "studyType": "Licenciado en Ingeniería en Desarrollo y Gestión de Software",
+      "startDate": "2023-09-04",
+      "endDate": "2025-04-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Principiante",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "MySQL",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Principiante",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Principiante",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Laravel",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "PHP"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "PHP"
       ]
     },
     {
       "name": "PHP",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo Web", "Backend", "PHP"
+        "Desarrollo Web",
+        "Backend",
+        "PHP"
       ]
     },
     {
       "name": "Flutter",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo móvil", "Frontend", "Dart"
+        "Desarrollo móvil",
+        "Frontend",
+        "Dart"
       ]
     },
     {
       "name": "Dart",
-      "level": "Jr",
+      "level": "seni-senior",
       "keywords": [
-        "Desarrollo móvil", "Backend", "Dart"
+        "Desarrollo móvil",
+        "Backend",
+        "Dart"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "seni-senior",
+      "keywords": [
+        "Desarrollo web",
+        "Frontend",
+        "Angular"
       ]
     }
   ],
@@ -184,17 +246,21 @@
       "fluency": "B1"
     }
   ],
-  "interests": [{
-    "name": "",
-    "keywords": [
-      "",
-      ""
-    ]
-  }],
-  "references": [{
-    "name": "",
-    "reference": ""
-  }],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
   "projects": [
     {
       "name": "App Móvil - Frontend",
