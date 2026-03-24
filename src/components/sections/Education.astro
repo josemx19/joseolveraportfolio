@@ -1,10 +1,16 @@
 ---
 import Section from "../Section.astro"
+import type { Education } from "@/cv"
 
-import { education } from "@cv"
+interface Props {
+  title: string
+  education: Education[]
+}
+
+const { title, education } = Astro.props
 ---
 
-<Section title="Educación">
+<Section title={title}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {

@@ -1,0 +1,49 @@
+---
+const { lang } = Astro.props
+
+const nextLang = lang === "es" ? "en" : "es"
+const label = lang === "es" ? "EN" : "ES"
+const url = nextLang === "es" ? "/" : "/en"
+---
+
+<div class="no-print">
+  <a href={url} class="language-picker" title={lang === "es" ? "Switch to English" : "Cambiar a Español"}>
+    {label}
+  </a>
+</div>
+
+<style>
+  .language-picker {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #eee;
+    color: #444;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .language-picker:hover {
+    background: #eee;
+    border-color: #ddd;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 700px) {
+    .language-picker {
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+</style>

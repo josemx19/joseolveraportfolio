@@ -1,5 +1,4 @@
 ---
-import { basics } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -7,8 +6,15 @@ import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import Download from "@/icons/Download.astro"
 import type { SocialIcon } from "@/types"
 
+interface Props {
+  basics: any
+  downloadTitle: string
+}
+
+const { basics, downloadTitle } = Astro.props
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
 
@@ -77,6 +83,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             )
           })
         }
+        <button
+          onclick="window.print()"
+          title={downloadTitle}
+          class="download-btn"
+        >
+          <Download />
+        </button>
       </footer>
     </div>
     <figure>
@@ -136,7 +149,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     margin-top: 8px;
   }
 
-  footer a {
+  footer a, .download-btn {
     color: #777;
     display: inline-flex;
     align-items: center;
@@ -147,9 +160,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     width: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
+    background: transparent;
+    cursor: pointer;
   }
 
-  footer a:hover {
+  footer a:hover, .download-btn:hover {
     background: #eee;
     border: 1px solid #ddd;
   }
@@ -178,6 +193,17 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
     figure {
       margin: 0 auto;
+    }
+  }
+
+  @media print {
+    .download-btn {
+      display: none;
+    }
+    
+    img {
+      width: 100px;
+      border-radius: 8px;
     }
   }
 </style>

@@ -1,275 +1,166 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "name": "José Manuel Olvera Pech",
+    "label": "Semi-Senior Mobile & Frontend Developer",
+    "image": "/me_avatar.jpg",
+    "email": "olveradev@gmail.com",
+    "phone": "+52 983 838 3912",
+    "url": "https://joseolveraportfolio.vercel.app",
+    "summary": "Software Development Engineer with 1 year of experience building mobile and frontend applications, specialized in **Flutter, Angular, and Laravel**. Led the digitalization of critical operational workflows — including electoral processes and institutional document management — delivering solutions that reduced operational times by up to 80%. Award-winning developer recognized for social impact and technological innovation in accessibility.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "Spain"
+      "postalCode": "77086",
+      "city": "Chetumal",
+      "countryCode": "MX",
+      "region": "Quintana Roo, Mexico"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "jose-olvera-a215162a4",
+        "url": "https://linkedin.com/in/jose-olvera-a215162a4"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "JoseGitUt",
+        "url": "https://github.com/JoseGitUt/"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Web programming communicator",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Autonomous University of the State of Quintana Roo (UAQROO)",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2025-08-11",
       "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Developing and maintaining SIGEDO, an institutional document management system built with Angular (frontend) and Spring Boot (backend), digitizing document workflows and eliminating manual processes. Building an institutional KPI management system with Angular and Spring Boot, enabling real-time tracking and accountability reporting.",
+      "highlights": []
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Alpha Taping & Drywall LTD. (Remote)",
+      "position": "Web & Mobile Developer",
+      "url": "https://apps.apple.com/us/app/alpha-taping-drywall-ltd/id6746773126",
+      "startDate": "2025-01-06",
+      "endDate": "2025-04-28",
+      "summary": "Built a Flutter mobile app for field employees to log invoices and daily timesheets, reducing payroll processing from 2+ weeks to just 3 days (80% improvement). Designed and developed a comprehensive Laravel web system for workforce data management and reporting.",
+      "highlights": []
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Electoral Tribunal of Quintana Roo",
+      "position": "Mobile Developer",
+      "url": "",
+      "startDate": "2023-05-06",
+      "endDate": "2023-08-27",
+      "summary": "Developed a Flutter app that centralized dynamic institutional data visualization and automated accountability reporting through advanced PDF reports with date-range filters, optimizing strategic decision-making.",
+      "highlights": []
+    },
+    {
+      "name": "Electoral Institute of Quintana Roo (IEQROO)",
+      "position": "Mobile Developer & Technical Support",
+      "startDate": "2023-10-02",
+      "endDate": "2024-06-30",
+      "summary": "Led the optimization of 2 mission-critical Flutter mobile apps, ensuring uninterrupted performance during the state electoral day. Provided first-level technical support with minimal response times.",
+      "highlights": []
+    },
+    {
+      "name": "Electronic Ballot for Electoral Education",
+      "position": "Mobile Developer",
+      "startDate": "2023-08-01",
+      "endDate": "2023-08-31",
+      "summary": "Developed an accessible electronic ballot app with guided interfaces for visually impaired users and native Mayan language support, removing barriers to democratic participation. Awarded for Social Impact & Technological Innovation.",
+      "highlights": []
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "education": [
+    {
+      "institution": "UTCHETUMAL",
+      "url": "http://www.utchetumal.edu.mx/index/",
+      "area": "B.Eng. in Software Development & Management",
+      "studyType": "Bachelor",
+      "startDate": "2023-09-04",
+      "endDate": "2025-04-30",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "UTCHETUMAL",
+      "url": "http://www.utchetumal.edu.mx/index/",
+      "area": "A.S. in IT (Multiplatform Software Development)",
+      "studyType": "Associate Degree",
+      "startDate": "2021-09-01",
+      "endDate": "2023-07-01",
+      "score": "",
+      "courses": []
+    }
+  ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend"
-      ]
+      "name": "Flutter",
+      "level": "Semi-Senior",
+      "keywords": ["Mobile", "Dart"]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Diseño Responsive"
-      ]
+      "name": "Angular",
+      "level": "Semi-Senior",
+      "keywords": ["Frontend", "TypeScript"]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
-      ]
+      "name": "Laravel",
+      "level": "Semi-Senior",
+      "keywords": ["Backend", "PHP"]
     },
     {
-      "name": "Tailwind",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "JavaScript", "Servidor"
-      ]
+      "name": "Spring Boot",
+      "level": "Junior",
+      "keywords": ["Backend", "Java"]
     },
     {
       "name": "MySQL",
-      "level": "Advanced",
-      "keywords": [
-        "Bases de Datos", "SQL", "Database", "Backend"
-      ]
+      "level": "Semi-Senior",
+      "keywords": ["Database", "SQL"]
     },
     {
       "name": "Git",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Colaboración", "Source code"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Tools"]
     },
     {
-      "name": "GitHub",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Collaboration", "Source code", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
-      ]
+        "name": "Tailwind CSS",
+        "level": "Intermediate",
+        "keywords": ["Frontend", "CSS"]
     }
   ],
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Intermediate (B1)"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Mobile App - Frontend",
       "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "description": "Mobile application for blog, developed with Flutter.",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "Built with Flutter",
+        "Connection with REST API to manage blog entries"
       ],
-      "url": "https://mars.codes"
+      "url": "https://github.com/JoseGitUt/blog_app_mobile"
     },
     {
-      "name": "AdventJS",
+      "name": "Web App - Backend",
       "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "description": "Backend for the blog application, developed with Laravel.",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "Built with Laravel",
+        "Authentication management, CRUD of blog entries"
       ],
-      "url": "https://advent.js/dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
-      "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
-      "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
-      "highlights": [
-        "100% free",
-        "+500 community solutions"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/JoseGitUt/blog_app_laravel"
     }
   ]
 }

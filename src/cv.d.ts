@@ -1,11 +1,11 @@
 export interface CV {
   basics: Basics
   work: Array<Work>
-  volunteer: Array<Volunteer>
+  // volunteer: Array<Volunteer>
   education: Array<Education>
-  awards: Array<Awards>
-  certificates: Array<Certificates>
-  publications: Array<Publications>
+  // awards: Array<Awards>
+  // certificates: Array<Certificates>
+  // publications: Array<Publications>
   skills: Array<Skills>
   languages: Array<Languages>
   interests: Array<Interests>
@@ -42,14 +42,14 @@ interface Profiles {
 interface Work {
   name: string
   position: string
-  url: string
+  url?: string
   startDate: DateStr
   endDate: DateStr | null
   summary: string
   highlights: Highlight
 }
 
-type DateStr = `${string}-${string}-${string}`
+type DateStr = string
 
 // interface Volunteer {
 //   organization: string

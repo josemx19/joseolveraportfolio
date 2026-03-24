@@ -1,264 +1,144 @@
 {
   "basics": {
-    "name": "Jose Olvera",
-    "label": "Desarrollador semi-senior",
+    "name": "José Manuel Olvera Pech",
+    "label": "Desarrollador Mobile & Frontend Semi-Senior",
     "image": "/me_avatar.jpg",
     "email": "olveradev@gmail.com",
-    "phone": "+52 983-838-3912",
-    "url": "",
-    "summary": "Soy un desarrollador semi-senior con conocimientos en HTML y PHP, Angular, Java Spring, haciendo uso del framework Laravel para construir aplicaciones web robustas y dinámicas. En el ámbito móvil, manejo Dart y utilizo el versátil framework Flutter para desarrollar aplicaciones nativas eficientes en iOS y Android.",
+    "phone": "+52 983 838 3912",
+    "url": "https://joseolveraportfolio.vercel.app",
+    "summary": "Ingeniero en Desarrollo y Gestión de Software con 1 año de experiencia en desarrollo móvil y frontend, especializado en **Flutter, Angular y Laravel**. He liderado la digitalización de procesos en entornos operativos críticos —incluyendo jornadas electorales y gestión documental institucional— entregando soluciones que reducen tiempos operativos hasta en un 80%. Reconocido por un proyecto de alto impacto social en accesibilidad e inclusión tecnológica.",
     "location": {
       "address": "",
       "postalCode": "77086",
       "city": "Chetumal",
       "countryCode": "MX",
-      "region": "México"
+      "region": "Quintana Roo, México"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "",
+        "username": "jose-olvera-a215162a4",
         "url": "https://linkedin.com/in/jose-olvera-a215162a4"
       },
       {
         "network": "GitHub",
-        "username": "",
+        "username": "JoseGitUt",
         "url": "https://github.com/JoseGitUt/"
       }
     ]
   },
   "work": [
     {
-      "name": "Urna Electrónica para Educación Electoral",
-      "position": "Desarrollador Móvil",
+      "name": "Universidad Autónoma del Estado de Quintana Roo (UAQROO)",
+      "position": "Programador",
       "url": "",
-      "startDate": "2023-06-01",
-      "endDate": "2023-12-01",
-      "summary": "Desarrollé una aplicación móvil para una urna electrónica con accesibilidad para personas ciegas y hablantes de maya.",
-      "highlights": [
-        "Diseño y desarrollo de una urna electrónica adaptada a necesidades inclusivas."
-      ]
+      "startDate": "2025-08-11",
+      "endDate": null,
+      "summary": "Desarrollo y mantenimiento de SIGEDO, sistema institucional de gestión de documentos con Angular (frontend) y Spring Boot (backend), digitalizando flujos documentales y eliminando procesos manuales. Desarrollo de un sistema de gestión de indicadores institucionales con Angular y Spring Boot, permitiendo el seguimiento y rendición de cuentas en tiempo real.",
+      "highlights": []
+    },
+    {
+      "name": "Alpha Taping & Drywall LTD. (Remoto)",
+      "position": "Desarrollador Web y Móvil",
+      "url": "https://apps.apple.com/us/app/alpha-taping-drywall-ltd/id6746773126",
+      "startDate": "2025-01-06",
+      "endDate": "2025-04-28",
+      "summary": "Desarrollé una app móvil en Flutter para registro de facturas y hojas de tiempo diario, reduciendo los cortes quincenales de +2 semanas a solo 3 días (mejora del 80%). Diseñé y construí un sistema web integral en Laravel para el control y consulta de datos laborales.",
+      "highlights": []
     },
     {
       "name": "Tribunal Electoral de Quintana Roo",
       "position": "Desarrollador Móvil",
       "url": "",
-      "startDate": "2024-10-02",
-      "endDate": "2024-06-01",
-      "summary": "Desarrollé una aplicación móvil en Flutter para visualizar actividades, consultar datos estadísticos y generar reportes en PDF con filtros de tiempo.",
-      "highlights": [
-        "Implementación de generación de reportes en PDF con filtros personalizados."
-      ]
+      "startDate": "2023-05-06",
+      "endDate": "2023-08-27",
+      "summary": "Desarrollé una app en Flutter que centralizó la visualización dinámica de datos institucionales y automatizó la rendición de cuentas con reportes PDF con filtros avanzados, optimizando la toma de decisiones estratégica.",
+      "highlights": []
     },
     {
-      "name": "Instituto Electoral de Quintana Roo",
-      "position": "Desarrollador Móvil y Técnico de Soporte",
+      "name": "Instituto Electoral de Quintana Roo (IEQROO)",
+      "position": "Desarrollador Móvil y Soporte Técnico",
       "startDate": "2023-10-02",
-      "endDate": "2024-06-31",
-      "summary": "Participé en el desarrollo y optimización de aplicaciones móviles para la jornada electoral 2024, además de brindar soporte técnico.",
-      "highlights": [
-        "Contribuí al desarrollo y optimización de dos aplicaciones móviles utilizadas durante el proceso electoral."
-      ]
+      "endDate": "2024-06-30",
+      "summary": "Lideré la optimización de 2 aplicaciones móviles críticas en Flutter, asegurando su rendimiento ininterrumpido durante la jornada electoral estatal. Brindé soporte técnico de primer nivel con tiempos de respuesta mínimos.",
+      "highlights": []
     },
     {
-      "name": "Alpha Taping & Drywall LTD. – EstadiaProfesional (Remoto)",
-      "position": "Desarrollador Móvil y Web",
-      "startDate": "2025-01-06",
-      "endDate": "2025-04-20",
-      "summary": "Desarrollo de aplicaciones móviles y web para gestión de trabajos de construcción",
-      "highlights": [
-        "Contribuí al desarrollo y optimización de dos aplicaciones móviles utilizadas durante el proceso electoral.",
-        "Desarrollé una aplicación móvil en Flutter para que los empleados puedan cargar facturas y hojas de tiempo de los trabajos realizados en campo. Colaboré en el desarrollo de un sistema web en Laravel junto con un compañero, integrando funcionalidades para el manejo y consulta de datos laborales."
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "position": "",
-      "url": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
+      "name": "Urna Electrónica para Educación Electoral",
+      "position": "Desarrollador Móvil",
+      "startDate": "2023-08-01",
+      "endDate": "2023-08-31",
+      "summary": "Desarrollé una urna electrónica móvil con interfaces de accesibilidad para personas con discapacidad visual y soporte nativo en lengua maya, eliminando barreras de participación democrática. Proyecto Galardonado por Impacto Social e Innovación.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "Universidad Tecnológica de Chetumal",
+      "institution": "Universidad Tecnológica de Chetumal (UTCHETUMAL)",
       "url": "http://www.utchetumal.edu.mx/index/",
-      "area": "Tecnologías de la Información - Desarrollo de Software Multiplataforma",
+      "area": "Ingeniería en Desarrollo y Gestión de Software",
+      "studyType": "Ingeniería",
+      "startDate": "2023-09-04",
+      "endDate": "2025-04-30",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Tecnológica de Chetumal (UTCHETUMAL)",
+      "url": "http://www.utchetumal.edu.mx/index/",
+      "area": "T.S.U. en TI (Desarrollo de Software Multiplataforma)",
       "studyType": "Técnico Superior Universitario",
       "startDate": "2021-09-01",
       "endDate": "2023-07-01",
       "score": "",
       "courses": []
-    },
-    {
-      "institution": "Universidad Tecnológica de Chetumal",
-      "url": "http://www.utchetumal.edu.mx/index/",
-      "area": "Ingeniería en desarrollo y gestión de software",
-      "studyType": "Licenciado en Ingeniería en Desarrollo y Gestión de Software",
-      "startDate": "2023-09-04",
-      "endDate": "2025-04-30",
-      "score": "",
-      "courses": []
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "",
-      "date": "",
-      "issuer": "",
-      "url": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Principiante",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "seni-senior",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Principiante",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Principiante",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
-    },
-    {
-      "name": "Laravel",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "PHP"
-      ]
-    },
-    {
-      "name": "PHP",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "PHP"
-      ]
-    },
-    {
       "name": "Flutter",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo móvil",
-        "Frontend",
-        "Dart"
-      ]
-    },
-    {
-      "name": "Dart",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo móvil",
-        "Backend",
-        "Dart"
-      ]
+      "level": "Semi-Senior",
+      "keywords": ["Mobile", "Dart"]
     },
     {
       "name": "Angular",
-      "level": "seni-senior",
-      "keywords": [
-        "Desarrollo web",
-        "Frontend",
-        "Angular"
-      ]
+      "level": "Semi-Senior",
+      "keywords": ["Frontend", "TypeScript"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Semi-Senior",
+      "keywords": ["Backend", "PHP"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Junior",
+      "keywords": ["Backend", "Java"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Semi-Senior",
+      "keywords": ["Database", "SQL"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Tools"]
+    },
+    {
+        "name": "Tailwind CSS",
+        "level": "Intermediate",
+        "keywords": ["Frontend", "CSS"]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "B1"
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
-      "keywords": [
-        "",
-        ""
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "",
-      "reference": ""
+      "language": "Inglés",
+      "fluency": "Intermedio (B1)"
     }
   ],
   "projects": [

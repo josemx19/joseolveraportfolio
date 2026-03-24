@@ -10,28 +10,28 @@ import Skills from "@/components/sections/Skills.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 import LanguagePicker from "@/components/LanguagePicker.astro"
 
-import cv from "../../cv.json"
-const { basics, work, education, projects, skills } = cv
+import cvEn from "../../../cv_english.json"
+const { basics, work, education, projects, skills } = cvEn
 const { name, label } = basics
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`} lang="es" basics={basics}>
-  <LanguagePicker lang="es" />
+<Layout title={`${name}'s Portfolio - ${label}`} lang="en" basics={basics}>
+  <LanguagePicker lang="en" />
   <main>
-    <Hero basics={basics} downloadTitle="Descargar Currículum" />
-    <About title="Sobre mí" summary={basics.summary} />
-    <Experience title="Experiencia laboral" work={work} />
-    <Education title="Educación" education={education} />
-    <Projects title="Proyectos" projects={projects} />
-    <Skills title="Habilidades" skills={skills} />
+    <Hero basics={basics} downloadTitle="Download CV" />
+    <About title="About Me" summary={basics.summary} />
+    <Experience title="Work Experience" work={work} />
+    <Education title="Education" education={education} />
+    <Projects title="Projects" projects={projects} />
+    <Skills title="Skills" skills={skills} />
   </main>
 
   <KeyboardManager 
     basics={basics}
-    footerText="Pulsa Cmd + K para abrir la paleta de comandos."
-    placeholder="Buscar comando"
-    printTitle="Imprimir"
-    actionsSection="Acciones"
+    footerText="Press Cmd + K to open the command palette."
+    placeholder="Search command"
+    printTitle="Print"
+    actionsSection="Actions"
   />
 </Layout>
 

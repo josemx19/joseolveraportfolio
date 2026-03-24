@@ -1,17 +1,16 @@
 ---
-import { basics } from "@cv"
-
 interface Props {
   title: string
+  lang: string
+  basics: any
 }
 
-const { title } = Astro.props
-
+const { title, lang, basics } = Astro.props
 const { image, summary, url } = basics
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -119,6 +118,58 @@ const { image, summary, url } = basics
 
     article {
       break-inside: avoid;
+    }
+
+    html {
+      font-size: 12px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      padding: 0.5rem 1rem !important;
+    }
+
+    section {
+      margin-bottom: 12px !important;
+    }
+
+    h2 {
+      margin-bottom: 4px !important;
+      font-size: 1.15rem !important;
+    }
+
+    h3 {
+      font-size: 0.95rem !important;
+    }
+
+    h4 {
+      font-size: 0.85rem !important;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 0.8rem !important;
+      line-height: 1.35 !important;
+    }
+
+    ul {
+      gap: 4px !important;
+    }
+
+    li {
+      margin-bottom: 2px !important;
+    }
+
+    footer p {
+      font-size: 0.75rem !important;
+    }
+
+    header {
+      margin-bottom: 2px !important;
     }
   }
 </style>
